@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ReadMyStory
+//  ReadMyStory test edit
 //
 //  Created by Michael Stearne on 1/29/16.
 //  Copyright © 2016 Michael Stearne. All rights reserved.

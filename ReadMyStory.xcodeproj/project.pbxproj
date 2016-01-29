@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2BE0B61C5BB83B00C3B8CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2BE0B51C5BB83B00C3B8CB /* AppDelegate.swift */; };
+		AC2BE0B81C5BB83B00C3B8CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2BE0B71C5BB83B00C3B8CB /* ViewController.swift */; };
+		AC2BE0BB1C5BB83C00C3B8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2BE0B91C5BB83C00C3B8CB /* Main.storyboard */; };
+		AC2BE0BE1C5BB83C00C3B8CB /* ReadMyStory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC2BE0BC1C5BB83C00C3B8CB /* ReadMyStory.xcdatamodeld */; };
+		AC2BE0C01C5BB83C00C3B8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2BE0BF1C5BB83C00C3B8CB /* Assets.xcassets */; };
+		AC2BE0C31C5BB83C00C3B8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2BE0C11C5BB83C00C3B8CB /* LaunchScreen.storyboard */; };
+		AC2BE0CE1C5BB83C00C3B8CB /* ReadMyStoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2BE0CD1C5BB83C00C3B8CB /* ReadMyStoryTests.swift */; };
+		AC2BE0D91C5BB83C00C3B8CB /* ReadMyStoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2BE0D81C5BB83C00C3B8CB /* ReadMyStoryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC2BE0CA1C5BB83C00C3B8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2BE0AA1C5BB83B00C3B8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2BE0B11C5BB83B00C3B8CB;
+			remoteInfo = ReadMyStory;
+		};
+		AC2BE0D51C5BB83C00C3B8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2BE0AA1C5BB83B00C3B8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2BE0B11C5BB83B00C3B8CB;
+			remoteInfo = ReadMyStory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2BE0B21C5BB83B00C3B8CB /* ReadMyStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMyStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2BE0B51C5BB83B00C3B8CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC2BE0B71C5BB83B00C3B8CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC2BE0BA1C5BB83C00C3B8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC2BE0BD1C5BB83C00C3B8CB /* ReadMyStory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReadMyStory.xcdatamodel; sourceTree = "<group>"; };
+		AC2BE0BF1C5BB83C00C3B8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC2BE0C21C5BB83C00C3B8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC2BE0C41C5BB83C00C3B8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2BE0C91C5BB83C00C3B8CB /* ReadMyStoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadMyStoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2BE0CD1C5BB83C00C3B8CB /* ReadMyStoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMyStoryTests.swift; sourceTree = "<group>"; };
+		AC2BE0CF1C5BB83C00C3B8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2BE0D41C5BB83C00C3B8CB /* ReadMyStoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadMyStoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2BE0D81C5BB83C00C3B8CB /* ReadMyStoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMyStoryUITests.swift; sourceTree = "<group>"; };
+		AC2BE0DA1C5BB83C00C3B8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2BE0AF1C5BB83B00C3B8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2BE0C61C5BB83C00C3B8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2BE0D11C5BB83C00C3B8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2BE0A91C5BB83B00C3B8CB = {
+			isa = PBXGroup;
+			children = (
+				AC2BE0B41C5BB83B00C3B8CB /* ReadMyStory */,
+				AC2BE0CC1C5BB83C00C3B8CB /* ReadMyStoryTests */,
+				AC2BE0D71C5BB83C00C3B8CB /* ReadMyStoryUITests */,
+				AC2BE0B31C5BB83B00C3B8CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2BE0B31C5BB83B00C3B8CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2BE0B21C5BB83B00C3B8CB /* ReadMyStory.app */,
+				AC2BE0C91C5BB83C00C3B8CB /* ReadMyStoryTests.xctest */,
+				AC2BE0D41C5BB83C00C3B8CB /* ReadMyStoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2BE0B41C5BB83B00C3B8CB /* ReadMyStory */ = {
+			isa = PBXGroup;
+			children = (
+				AC2BE0B51C5BB83B00C3B8CB /* AppDelegate.swift */,
+				AC2BE0B71C5BB83B00C3B8CB /* ViewController.swift */,
+				AC2BE0B91C5BB83C00C3B8CB /* Main.storyboard */,
+				AC2BE0BF1C5BB83C00C3B8CB /* Assets.xcassets */,
+				AC2BE0C11C5BB83C00C3B8CB /* LaunchScreen.storyboard */,
+				AC2BE0C41C5BB83C00C3B8CB /* Info.plist */,
+				AC2BE0BC1C5BB83C00C3B8CB /* ReadMyStory.xcdatamodeld */,
+			);
+			path = ReadMyStory;
+			sourceTree = "<group>";
+		};
+		AC2BE0CC1C5BB83C00C3B8CB /* ReadMyStoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2BE0CD1C5BB83C00C3B8CB /* ReadMyStoryTests.swift */,
+				AC2BE0CF1C5BB83C00C3B8CB /* Info.plist */,
+			);
+			path = ReadMyStoryTests;
+			sourceTree = "<group>";
+		};
+		AC2BE0D71C5BB83C00C3B8CB /* ReadMyStoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2BE0D81C5BB83C00C3B8CB /* ReadMyStoryUITests.swift */,
+				AC2BE0DA1C5BB83C00C3B8CB /* Info.plist */,
+			);
+			path = ReadMyStoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2BE0B11C5BB83B00C3B8CB /* ReadMyStory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2BE0DD1C5BB83C00C3B8CB /* Build configuration list for PBXNativeTarget "ReadMyStory" */;
+			buildPhases = (
+				AC2BE0AE1C5BB83B00C3B8CB /* Sources */,
+				AC2BE0AF1C5BB83B00C3B8CB /* Frameworks */,
+				AC2BE0B01C5BB83B00C3B8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadMyStory;
+			productName = ReadMyStory;
+			productReference = AC2BE0B21C5BB83B00C3B8CB /* ReadMyStory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC2BE0C81C5BB83C00C3B8CB /* ReadMyStoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2BE0E01C5BB83C00C3B8CB /* Build configuration list for PBXNativeTarget "ReadMyStoryTests" */;
+			buildPhases = (
+				AC2BE0C51C5BB83C00C3B8CB /* Sources */,
+				AC2BE0C61C5BB83C00C3B8CB /* Frameworks */,
+				AC2BE0C71C5BB83C00C3B8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2BE0CB1C5BB83C00C3B8CB /* PBXTargetDependency */,
+			);
+			name = ReadMyStoryTests;
+			productName = ReadMyStoryTests;
+			productReference = AC2BE0C91C5BB83C00C3B8CB /* ReadMyStoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC2BE0D31C5BB83C00C3B8CB /* ReadMyStoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2BE0E31C5BB83C00C3B8CB /* Build configuration list for PBXNativeTarget "ReadMyStoryUITests" */;
+			buildPhases = (
+				AC2BE0D01C5BB83C00C3B8CB /* Sources */,
+				AC2BE0D11C5BB83C00C3B8CB /* Frameworks */,
+				AC2BE0D21C5BB83C00C3B8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2BE0D61C5BB83C00C3B8CB /* PBXTargetDependency */,
+			);
+			name = ReadMyStoryUITests;
+			productName = ReadMyStoryUITests;
+			productReference = AC2BE0D41C5BB83C00C3B8CB /* ReadMyStoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2BE0AA1C5BB83B00C3B8CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Michael Stearne";
+				TargetAttributes = {
+					AC2BE0B11C5BB83B00C3B8CB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AC2BE0C81C5BB83C00C3B8CB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AC2BE0B11C5BB83B00C3B8CB;
+					};
+					AC2BE0D31C5BB83C00C3B8CB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AC2BE0B11C5BB83B00C3B8CB;
+					};
+				};
+			};
+			buildConfigurationList = AC2BE0AD1C5BB83B00C3B8CB /* Build configuration list for PBXProject "ReadMyStory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2BE0A91C5BB83B00C3B8CB;
+			productRefGroup = AC2BE0B31C5BB83B00C3B8CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2BE0B11C5BB83B00C3B8CB /* ReadMyStory */,
+				AC2BE0C81C5BB83C00C3B8CB /* ReadMyStoryTests */,
+				AC2BE0D31C5BB83C00C3B8CB /* ReadMyStoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2BE0B01C5BB83B00C3B8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2BE0C31C5BB83C00C3B8CB /* LaunchScreen.storyboard in Resources */,
+				AC2BE0C01C5BB83C00C3B8CB /* Assets.xcassets in Resources */,
+				AC2BE0BB1C5BB83C00C3B8CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2BE0C71C5BB83C00C3B8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2BE0D21C5BB83C00C3B8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2BE0AE1C5BB83B00C3B8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2BE0B81C5BB83B00C3B8CB /* ViewController.swift in Sources */,
+				AC2BE0BE1C5BB83C00C3B8CB /* ReadMyStory.xcdatamodeld in Sources */,
+				AC2BE0B61C5BB83B00C3B8CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2BE0C51C5BB83C00C3B8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2BE0CE1C5BB83C00C3B8CB /* ReadMyStoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2BE0D01C5BB83C00C3B8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2BE0D91C5BB83C00C3B8CB /* ReadMyStoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2BE0CB1C5BB83C00C3B8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2BE0B11C5BB83B00C3B8CB /* ReadMyStory */;
+			targetProxy = AC2BE0CA1C5BB83C00C3B8CB /* PBXContainerItemProxy */;
+		};
+		AC2BE0D61C5BB83C00C3B8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2BE0B11C5BB83B00C3B8CB /* ReadMyStory */;
+			targetProxy = AC2BE0D51C5BB83C00C3B8CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC2BE0B91C5BB83C00C3B8CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2BE0BA1C5BB83C00C3B8CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC2BE0C11C5BB83C00C3B8CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC2BE0C21C5BB83C00C3B8CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC2BE0DB1C5BB83C00C3B8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC2BE0DC1C5BB83C00C3B8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC2BE0DE1C5BB83C00C3B8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadMyStory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.entermix.utility.ReadMyStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC2BE0DF1C5BB83C00C3B8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadMyStory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.entermix.utility.ReadMyStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC2BE0E11C5BB83C00C3B8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReadMyStoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.entermix.utility.ReadMyStoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadMyStory.app/ReadMyStory";
+			};
+			name = Debug;
+		};
+		AC2BE0E21C5BB83C00C3B8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ReadMyStoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.entermix.utility.ReadMyStoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadMyStory.app/ReadMyStory";
+			};
+			name = Release;
+		};
+		AC2BE0E41C5BB83C00C3B8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReadMyStoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.entermix.utility.ReadMyStoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReadMyStory;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC2BE0E51C5BB83C00C3B8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ReadMyStoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.entermix.utility.ReadMyStoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ReadMyStory;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2BE0AD1C5BB83B00C3B8CB /* Build configuration list for PBXProject "ReadMyStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2BE0DB1C5BB83C00C3B8CB /* Debug */,
+				AC2BE0DC1C5BB83C00C3B8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2BE0DD1C5BB83C00C3B8CB /* Build configuration list for PBXNativeTarget "ReadMyStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2BE0DE1C5BB83C00C3B8CB /* Debug */,
+				AC2BE0DF1C5BB83C00C3B8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC2BE0E01C5BB83C00C3B8CB /* Build configuration list for PBXNativeTarget "ReadMyStoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2BE0E11C5BB83C00C3B8CB /* Debug */,
+				AC2BE0E21C5BB83C00C3B8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC2BE0E31C5BB83C00C3B8CB /* Build configuration list for PBXNativeTarget "ReadMyStoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2BE0E41C5BB83C00C3B8CB /* Debug */,
+				AC2BE0E51C5BB83C00C3B8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC2BE0BC1C5BB83C00C3B8CB /* ReadMyStory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC2BE0BD1C5BB83C00C3B8CB /* ReadMyStory.xcdatamodel */,
+			);
+			currentVersion = AC2BE0BD1C5BB83C00C3B8CB /* ReadMyStory.xcdatamodel */;
+			path = ReadMyStory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC2BE0AA1C5BB83B00C3B8CB /* Project object */;
+}
